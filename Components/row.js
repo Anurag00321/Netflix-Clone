@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "../utils/axios";
-import YouTube from 'react-youtube';
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
