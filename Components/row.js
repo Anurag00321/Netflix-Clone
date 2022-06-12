@@ -20,7 +20,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     <div className="text-white text-xl">
      <h2>{title}</h2>
 
-      <div className="flex overflow-y-auto overflow-x-scroll scrollbar-hide">
+      <div className="flex overflow-y-auto overflow-x-scroll no-scrollbar">
         {movies.map((movie) => (
           <img
           className="object-contain w-full max-h-40 mr-4 hover:scale-150 p-2"
