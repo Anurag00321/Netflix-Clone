@@ -22,6 +22,8 @@ export default function Home() {
       <Row title="Action" fetchUrl={requests.fetchActionMovies} />
       <Row title="Comedy" fetchUrl={requests.fetchComedyMovies} />
       <Row title="Horror" fetchUrl={requests.fetchHorrorMovies} />
+      <Row title="Documentary" fetchUrl={requests.fetchDocumentaries}/>
+      <Row title="Romance" fetchUrl={requests.fetchRomanceMovies} />
 
     </div>
   );
