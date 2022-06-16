@@ -1,4 +1,4 @@
-const API_KEY = "2a888ee643013ce0096cf00e08ffdd43";
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
 
 
 const requests = {
